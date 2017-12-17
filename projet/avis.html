@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" id="csslink" href=javascript/javascript.js/>
+        <script src="javascript/javascript.js"></script>
+        <meta name="keywords"
+            content="projet tutoré, projet tuteuré, projet, sigma, projet sigma, dut">
+        <meta name="description"
+            content="Laissez nous votre avis sur le projet Sigma.">
+        <title>
+            Projet Sigma
+        </title>
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+    <body onload="init()" id="body">
+        <h1 id="titre">Projet Sigma</h1>
+        <div id="top"> </div>
+        <ul id="navigation">
+            <li><a href="index.html" title="aller à accueil">Accueil</a></li>
+            <li><a href="presentation.html" title="aller à présentation">Présentation</a></li>
+            <li><a href="telechargements.html" title="aller à téléchargements">Téléchargements</a></li>
+            <li><a href="avis.html" title="aller à avis" id="active">Avis</a></li>
+        </ul>
+        <h2> Avis
+        </h2>
+        <p>Laissez nous votre avis !</p>
+        <form action="mailto:sirine.achache@etu.univ-amu.fr" method="post">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom"/>
+            </div>
+            <div>
+                <label for="courriel">Courriel :</label>
+                <input type="email" id="courriel" name="email" />
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea id="message" name="Message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer votre message</button>
+            </div>
+        </form>
+        <div id="avis">
+            <p>Merci pour votre participation !
+            </p>
+        </div>
+        <footer>
+            <div id="footer">
+                <a href="https://iut.univ-amu.fr/departements/informatique-info-aix"><img id="dpt" src="images/logo_dpt_info.png" alt="Logo Departement Informatique - IUT Aix"/></a>
+                <p>Sirine ACHACHE IUT Aix-Marseille Université<br />
+                    Département informatique Site d'Aix<br />
+                    1re année Groupe 4A
+                </p>
+                <a id="haut" href="#top">haut de la page</a>
+                <button onclick="swapStyleSheet()">Changer Style</button>
+            </div>
+        </footer>
+    </body>
+</html>
